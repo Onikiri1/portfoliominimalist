@@ -1,0 +1,30 @@
+.socialcontact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.socialicon {
+    
+    padding: 6px;
+    cursor: pointer;
+    margin: 14px;
+    scale: 250%;
+    color: #f8f9fa;
+    transition: .3s ease-in-out;
+}
+
+.socialicon:hover {
+    transform: translateY(-10px);
+    transition: .3s ease-in-out;
+    scale: 300%;
+    color: #80FFDB;
+}
+
+@media only screen and (max-width: 720px){
+    .socialicon {
+        scale: 200%;
+    }
+}

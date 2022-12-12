@@ -1,0 +1,44 @@
+.skillcard {
+    width: max-content;
+    scale: 1.1;
+    margin: 2px 8px;
+    padding: 4px 4px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    transition: .3s ease-in-out;
+}
+
+.skillcard:hover {
+    transform:  translateY(-20px);
+    transition: .3s ease-in-out;
+    
+}
+
+.skillicon {
+    font-size: 60px;
+    color: #E9ECEF;
+    transition: .2s ease-in-out;
+}
+.skillicon:hover {
+    color: #80FFDB;
+    transition: .2s ease-in-out;
+}
+
+.skillname {
+    font-size: 18px;
+    color:#E9ECEF;
+}
+
+@media only screen and (max-width: 720px) {
+    .skillcard {
+        width: max-content;
+        height: 100px;
+    }
+    .skillicon {
+        font-size: 60px;
+    }
+}

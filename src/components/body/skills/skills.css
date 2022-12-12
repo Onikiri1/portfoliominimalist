@@ -1,0 +1,53 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.skillsection {
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    margin: 12px 0px ;
+}
+.wdesc {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.skillsectiontitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #E9ECEF;
+
+}
+.sectiontitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E9ECEF;
+}
+
+.skilllist {
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 70%;
+    justify-content: flex-end;
+
+}
+
+@media only screen and (max-width: 720px) {
+    .skilllist {
+        max-width: 100%;
+        justify-content: center;
+
+    }
+    .skillsectiontitle {
+        flex-direction: column;
+
+    }
+}
+

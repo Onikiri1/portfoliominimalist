@@ -1,0 +1,43 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    color: #E9ECEF;
+}
+
+.sectitle {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    justify-content: space-between;
+    margin: 0px 0px;
+    text-align: center;;
+}
+.socials {
+    text-align: center;;
+    margin: 18px 18px;
+}
+
+.text1 {
+    margin: 30px 12px;
+}
+
+.boton {
+    
+    background-color: #80FFDB;
+    padding: 8px 8px;
+    margin: 20px 500px;
+    border-radius: 5px;
+
+}
+
+.botone {
+    scale: 2;
+    color: #F8F9FA;
+    transition: .3s ease-in-out;
+}
+
+.botone:hover {
+    transition: .3s ease-in-out;
+    color: #343A40;
+}

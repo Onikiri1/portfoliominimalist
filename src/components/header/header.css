@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 12px;
+  position: relative;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.micon {
+  font-size: 24px;
+  color: #E9ECEF;
+}
+
+.mobilemenu {
+  display: none;
+}
+
+.webmenu {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  font-size: 24px;
+  color: #72efdd;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+
+  cursor: pointer;
+}
+
+.o:hover {
+  animation: bouncy .5s forwards;
+  color: #f8f9fa;
+}
+
+.n:hover {
+  animation: bouncy .5s forwards;
+  color: #f8f9fa;
+}
+
+.i:hover {
+  animation: bouncy .5s forwards;
+  color: #f8f9fa;
+}
+.k:hover {
+  animation: bouncy .5s forwards;
+  color: #f8f9fa;
+}
+.r:hover {
+  animation: bouncy .5s forwards;
+  color: #f8f9fa;
+}
+
+@keyframes bouncy {
+  0% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform:  translateY(-20px) scale(1.2);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .mobilemenu {
+    display: flex;
+  }
+  .webmenu {
+    display: none;
+  }
+  .logo {
+    font-size: 24px;
+  }
+}

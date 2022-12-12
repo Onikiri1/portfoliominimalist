@@ -1,0 +1,39 @@
+.web {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.weboption {
+    scale: 1.2;
+    margin-right: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.weboption a {
+    text-decoration: none;
+    color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    transition: transform .2s ease-in-out;
+}
+.weboption a:hover {
+    color: #80FFDB;
+    transform: scale(1.4);
+    
+}
+
+.optionicon {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    padding: 6px;
+    font-size: 20px;
+    margin-left: 4px;
+   
+}
+
+.optionicon:last-child {
+    margin-right: 10px;
+}
